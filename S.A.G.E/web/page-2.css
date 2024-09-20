@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.sage-title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #bbe2bd;
+    opacity: 0;
+    animation: fadeIn 2s forwards, slideIn 2s forwards;
+}
+
+.sage-subtitle {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #bbe2bd;
+    opacity: 0;
+    animation: fadeIn 3s forwards, slideIn 3s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.circle-svg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.main-circle {
+    fill: none;
+    stroke: #00f2ff;
+    stroke-width: 2;
+    filter: drop-shadow(0 0 10px #00f2ff);
+}
+
+.animated-circle {
+    fill: none;
+    stroke: rgba(0, 242, 255, 0.5);
+    stroke-width: 1;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: dash 5s linear infinite, rotate 5s linear infinite;
+}
+
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 440;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        transform-origin: center;
+    }
+    to {
+        transform: rotate(720deg);
+        transform-origin: center;
+    }
+}
+
+.tech-lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.tech-lines .line {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    animation: moveLine 10s linear infinite;
+}
+
+@keyframes moveLine {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(100px, 100px);
+    }
+}
+
+.logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #bbe2bd;
+    border: none;
+    color: #0b0b0b;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.logout-button:hover {
+    background: #bbe2bd;
+}

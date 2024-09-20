@@ -1,0 +1,471 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello", "hi", "hey", "good morning", "good afternoon", "good evening", "how are you", 
+                "howdy", "greetings", "what's up", "hi there", "hey there", "hello there", "good day", 
+                "what's new", "good to see you", "nice to meet you", "pleasure to meet you", "yo", "how's it going"
+            ]
+        },
+        {
+            "tag": "open_application",
+            "patterns": [
+                "open ms access", "open access", "open ms powerpoint", "open powerpoint", "open wordpad", "open word",
+                "open ms word", "open excel", "open ms excel", "open outlook", "open ms outlook", "open publisher", 
+                "open ms publisher", "open onenote", "open ms onenote", "open sharepoint", "open ms sharepoint", 
+                "open infopath designer", "open infopath filler", "open brave", "open brave browser", "open calculator", 
+                "open camera", "open command prompt", "open computer management", "open control panel", "open cortana", 
+                "open discord", "open disk cleanup", "open documentation", "open event viewer", "open file explorer", 
+                "open git bash", "open git cmd", "open git gui", "open groove music", "open hashcalc", "open magnifier", 
+                "open internet explorer", "open node js command prompt", "open notepad", "open onedrive", "open paint", 
+                "open photos", "open task manager", "open telegram", "open this pc", "open video editor", "open visual studio", 
+                "open visual studio code", "open voice recorder", "open zoom", "launch access", "launch powerpoint", 
+                "launch wordpad", "launch word", "launch excel", "launch outlook", "launch publisher", "launch onenote", 
+                "launch sharepoint", "launch infopath", "launch brave", "launch calculator", "launch camera", 
+                "launch command prompt", "launch control panel", "launch discord", "launch disk cleanup", "launch documentation", 
+                "launch event viewer", "launch file explorer", "launch git bash", "launch groove music", "launch hashcalc", 
+                "launch magnifier", "launch internet explorer", "launch node js command prompt", "launch notepad", 
+                "launch onedrive", "launch paint", "launch photos", "launch task manager", "launch telegram", "launch this pc", 
+                "launch video editor", "launch visual studio", "launch visual studio code", "launch voice recorder", "launch zoom"
+            ]
+        },
+        {
+            "tag": "close_application",
+            "patterns": [
+                "close application", "exit program", "shut down application", "terminate program", "end task", "close program", 
+                "stop application", "quit application", "exit app", "shut app", "close app", "terminate app", "end app", 
+                "stop app", "quit app", "exit application", "shut application", "terminate application", "end application", "stop application"
+            ]
+        },
+        {
+            "tag": "create_file",
+            "patterns": [
+                "create new file", "make a file", "new file", "generate file", "add file", "start new file", "open new file", 
+                "make new file", "build file", "create a file", "new text file", "create document", "make document", "new document", 
+                "generate document", "add document", "start new document", "open new document", "build document", "create text file"
+            ]
+        },
+        {
+            "tag": "delete_file",
+            "patterns": [
+                "delete file", "remove file", "erase file", "discard file", "destroy file", "get rid of file", "remove document", 
+                "erase document", "discard document", "destroy document", "delete document", "delete the file", "remove the file", 
+                "erase the file", "discard the file", "destroy the file", "get rid of the file", "delete the document", 
+                "remove the document", "erase the document"
+            ]
+        },
+        {
+            "tag": "create_folder",
+            "patterns": [
+                "create new folder", "make a folder", "new folder", "generate folder", "add folder", "start new folder", "open new folder", 
+                "make new folder", "build folder", "create a folder", "new directory", "create directory", "make directory", 
+                "new dir", "generate directory", "add directory", "start new directory", "open new directory", "build directory", "create dir"
+            ]
+        },
+        {
+            "tag": "delete_folder",
+            "patterns": [
+                "delete folder", "remove folder", "erase folder", "discard folder", "destroy folder", "get rid of folder", 
+                "delete the folder", "remove the folder", "erase the folder", "discard the folder", "destroy the folder", 
+                "get rid of the folder", "delete directory", "remove directory", "erase directory", "discard directory", 
+                "destroy directory", "delete the directory", "remove the directory"
+            ]
+        },
+        {
+            "tag": "rename_item",
+            "patterns": [
+                "rename file", "rename folder", "rename document", "change file name", "change folder name", "change document name", 
+                "edit file name", "edit folder name", "edit document name", "alter file name", "alter folder name", "alter document name", 
+                "modify file name", "modify folder name", "modify document name", "update file name", "update folder name", "update document name", 
+                "set new file name", "set new folder name"
+            ]
+        },
+        {
+            "tag": "start_game",
+            "patterns": [
+                "start game", "launch game", "play game", "open game", "initiate game", "run game", "begin game", "begin playing", 
+                "begin a game", "start a game", "launch a game", "play a game", "open a game", "initiate a game", "run a game", 
+                "begin a game", "start playing", "launch playing", "open playing", "initiate playing"
+            ]
+        },
+        {
+            "tag": "get_news",
+            "patterns": [
+                "get news", "news update", "current news", "latest news", "news report", "news flash", "news bulletin", 
+                "news brief", "news roundup", "news digest", "news summary", "news headlines", "news today", "today's news", 
+                "news now", "news at present", "present news", "today's headlines", "current headlines", "latest headlines"
+            ]
+        },
+        {
+            "tag": "get_weather",
+            "patterns": [
+                "get weather", "weather update", "current weather", "latest weather", "weather report", "weather forecast", 
+                "weather briefing", "weather summary", "weather bulletin", "weather outlook", "today's weather", "weather today", 
+                "weather now", "present weather", "weather at present", "today's forecast", "current forecast", "latest forecast", 
+                "weather condition", "current weather condition"
+            ]
+        },
+        {
+            "tag": "tell_joke",
+            "patterns": [
+                "tell a joke", "make me laugh", "say something funny", "give me a joke", "tell me a joke", "joke time", 
+                "crack a joke", "funny joke", "humor me", "say a joke", "joke", "do you know any jokes", "do you have any jokes", 
+                "say something humorous", "give me something funny", "make a joke", "tell something funny", "tell a funny story", 
+                "say something entertaining", "amuse me"
+            ]
+        },
+        {
+            "tag": "set_reminder",
+            "patterns": [
+                "set a reminder", "remind me to", "schedule a reminder", "add a reminder", "create a reminder", "make a reminder", 
+                "set up a reminder", "note a reminder", "put a reminder", "set reminder", "remind me about", "remind me at", 
+                "remind me on", "remind me for", "remind me in", "add reminder", "create reminder", "make reminder", "set up reminder", "note reminder"
+            ]
+        },
+        {
+            "tag": "get_reminders",
+            "patterns": [
+                "get my reminders", "show my reminders", "list my reminders", "reminders", "what are my reminders", 
+                "do I have any reminders", "show me my reminders", "tell me my reminders", "list all reminders", "give me my reminders", 
+                "reminder list", "what reminders do I have", "what are my upcoming reminders", "check my reminders", "view my reminders", 
+                "see my reminders", "show all reminders", "do I have reminders", "any reminders", "upcoming reminders"
+            ]
+        },
+        {
+            "tag": "set_timer",
+            "patterns": [
+                "set a timer", "start a timer", "initiate timer", "begin timer", "start timer", "create a timer", "set timer for", 
+                "start timer for", "timer for", "timer", "create timer for", "start a timer for", "initiate a timer for", 
+                "set a timer for", "begin a timer for", "start a timer now", "initiate a timer now", "set a timer now", "start timer now", "begin timer now"
+            ]
+        },
+        {
+            "tag": "lookup_word",
+            "patterns": [
+                "define", "what does mean", "what is the meaning of", "give me the definition of", "what is", "explain", "what is the definition of", 
+                "meaning of", "definition of", "define the word", "give me the meaning of", "can you define", "what does this word mean", 
+                "what's the definition of", "give the definition of", "tell me the meaning of", "what does this mean", "explain the word", "describe", "tell me about"
+            ]
+        },
+        {
+            "tag": "get_random_funfact",
+            "patterns": [
+                "tell me a fun fact", "give me a fun fact", "fun fact", "random fact", "interesting fact", "tell me something interesting", 
+                "give me something interesting", "tell me something cool", "give me something cool", "cool fact", "tell me a random fact", 
+                "share a fun fact", "share an interesting fact", "tell me an interesting fact", "give me an interesting fact", "tell me a cool fact", 
+                "share a cool fact", "give me a random fact", "tell me something random", "interesting trivia"
+            ]
+        },
+        {
+            "tag": "volume_up",
+            "patterns": [
+                "increase volume", "turn up the volume", "volume up", "raise volume", "turn up volume", "louder", "increase the volume", 
+                "make it louder", "raise the volume", "turn the volume up", "volume higher", "increase sound", "raise sound", 
+                "turn sound up", "sound up", "louder please", "make it louder", "increase audio", "raise audio", "turn audio up"
+            ]
+        },
+        {
+            "tag": "volume_down",
+            "patterns": [
+                "decrease volume", "turn down the volume", "volume down", "lower volume", "turn down volume", "quieter", "decrease the volume", 
+                "make it quieter", "lower the volume", "turn the volume down", "volume lower", "decrease sound", "lower sound", 
+                "turn sound down", "sound down", "quieter please", "make it quieter", "decrease audio", "lower audio", "turn audio down"
+            ]
+        },
+        {
+            "tag": "mute_volume",
+            "patterns": [
+                "mute volume", "mute sound", "mute", "turn off volume", "turn off sound", "silence", "mute audio", "silence audio", 
+                "silence volume", "silent mode", "quiet mode", "turn volume off", "turn sound off", "mute the volume", "mute the sound", 
+                "mute the audio", "mute now", "quiet", "mute please", "make it quiet"
+            ]
+        },
+        {
+            "tag": "unmute_volume",
+            "patterns": [
+                "unmute volume", "unmute sound", "unmute", "turn on volume", "turn on sound", "unmute audio", "unsilence audio", 
+                "unsilence volume", "turn volume on", "turn sound on", "unmute the volume", "unmute the sound", "unmute the audio", 
+                "unmute now", "unmute please", "make it loud again", "bring back the sound", "bring back the volume", "bring back the audio", "unmute"
+            ]
+        },
+        {
+            "tag": "normalize_volume",
+            "patterns": [
+                "normalize volume", "set volume to normal", "default volume", "reset volume", "balance volume", "normalize sound", 
+                "set sound to normal", "default sound", "reset sound", "balance sound", "normalize audio", "set audio to normal", 
+                "default audio", "reset audio", "balance audio", "set volume to default", "set sound to default", "set audio to default", 
+                "make volume normal", "make sound normal"
+            ]
+        },
+        {
+            "tag": "switch_tab",
+            "patterns": [
+                "switch tab", "change tab", "next tab", "go to next tab", "move to next tab", "previous tab", "go to previous tab", 
+                "move to previous tab", "navigate to next tab", "navigate to previous tab", "switch to next tab", "switch to previous tab", 
+                "change to next tab", "change to previous tab", "move tab", "navigate tab", "go tab", "move between tabs", "switch between tabs", "swap tab"
+            ]
+        },
+        {
+            "tag": "new_tab",
+            "patterns": [
+                "new tab", "open new tab", "create new tab", "start new tab", "launch new tab", "new browser tab", "open browser tab", 
+                "create browser tab", "start browser tab", "launch browser tab", "new webpage", "open webpage", "create webpage", 
+                "start webpage", "launch webpage", "new internet tab", "open internet tab", "create internet tab", "start internet tab", "launch internet tab"
+            ]
+        },
+        {
+            "tag": "close_tab",
+            "patterns": [
+                "close tab", "shut tab", "exit tab", "terminate tab", "end tab", "close the tab", "shut the tab", "exit the tab", 
+                "terminate the tab", "end the tab", "close browser tab", "shut browser tab", "exit browser tab", "terminate browser tab", 
+                "end browser tab", "close webpage", "shut webpage", "exit webpage", "terminate webpage", "end webpage"
+            ]
+        },
+        {
+            "tag": "switch_window",
+            "patterns": [
+                "switch window", "change window", "next window", "go to next window", "move to next window", "previous window", 
+                "go to previous window", "move to previous window", "navigate to next window", "navigate to previous window", 
+                "switch to next window", "switch to previous window", "change to next window", "change to previous window", 
+                "move window", "navigate window", "go window", "move between windows", "switch between windows", "swap window"
+            ]
+        },
+        {
+            "tag": "minimize_window",
+            "patterns": [
+                "minimize window", "reduce window", "shrink window", "make window smaller", "minimize the window", "reduce the window", 
+                "shrink the window", "make the window smaller", "minimize application", "reduce application", "shrink application", 
+                "make application smaller", "minimize the application", "reduce the application", "shrink the application", 
+                "make the application smaller", "minimize app", "reduce app", "shrink app"
+            ]
+        },
+        {
+            "tag": "maximize_window",
+            "patterns": [
+                "maximize window", "enlarge window", "expand window", "make window bigger", "maximize the window", "enlarge the window", 
+                "expand the window", "make the window bigger", "maximize application", "enlarge application", "expand application", 
+                "make application bigger", "maximize the application", "enlarge the application", "expand the application", 
+                "make the application bigger", "maximize app", "enlarge app", "expand app"
+            ]
+        },
+        {
+            "tag": "take_note",
+            "patterns": [
+                "take note", "make a note", "write a note", "note this down", "note down", "jot down", "record this note", 
+                "create a note", "add a note", "make note", "write note", "note it down", "take down note", "jot this down", 
+                "record the note", "create note", "add note", "write this down", "write this note", "jot it down"
+            ]
+        },
+        {
+            "tag": "select_all",
+            "patterns": [
+                "select all", "highlight all", "mark all", "choose all", "select everything", "highlight everything", 
+                "mark everything", "choose everything", "select all text", "highlight all text", "mark all text", "choose all text", 
+                "select all content", "highlight all content", "mark all content", "choose all content", "select all items", 
+                "highlight all items", "mark all items", "choose all items"
+            ]
+        },
+        {
+            "tag": "delete_text",
+            "patterns": [
+                "delete text", "remove text", "erase text", "discard text", "delete all text", "remove all text", "erase all text", 
+                "discard all text", "clear text", "delete the text", "remove the text", "erase the text", "discard the text", 
+                "delete this text", "remove this text", "erase this text", "discard this text", "clear all text", "delete everything", "remove everything"
+            ]
+        },
+        {
+            "tag": "copy_text",
+            "patterns": [
+                "copy text", "duplicate text", "replicate text", "copy all text", "duplicate all text", "replicate all text", 
+                "copy the text", "duplicate the text", "replicate the text", "copy this text", "duplicate this text", "replicate this text", 
+                "copy everything", "copy all", "duplicate everything", "replicate everything", "copy all content", "duplicate all content", "replicate all content", "copy content"
+            ]
+        },
+        {
+            "tag": "cut_text",
+            "patterns": [
+                "cut text", "move text", "cut all text", "move all text", "cut the text", "move the text", "cut this text", 
+                "move this text", "cut everything", "move everything", "cut all", "move all", "cut content", "move content", 
+                "cut all content", "move all content", "cut text", "move text", "cut everything", "move everything"
+            ]
+        },
+        {
+            "tag": "paste_text",
+            "patterns": [
+                "paste text", "insert text", "paste all text", "insert all text", "paste the text", "insert the text", 
+                "paste this text", "insert this text", "paste everything", "insert everything", "paste all", "insert all", 
+                "paste content", "insert content", "paste all content", "insert all content", "paste text", "insert text", 
+                "paste everything", "insert everything"
+            ]
+        },
+        {
+            "tag": "undo",
+            "patterns": [
+                "undo", "reverse action", "revert action", "undo last action", "undo previous action", "reverse last action", 
+                "revert last action", "undo last step", "reverse last step", "revert last step", "undo previous step", "reverse previous step", 
+                "revert previous step", "undo the action", "reverse the action", "revert the action", "undo the step", "reverse the step", "revert the step", "go back"
+            ]
+        },
+        {
+            "tag": "redo",
+            "patterns": [
+                "redo", "repeat action", "do again", "redo last action", "repeat last action", "do last action again", 
+                "redo previous action", "repeat previous action", "do previous action again", "redo last step", "repeat last step", 
+                "do last step again", "redo previous step", "repeat previous step", "do previous step again", "redo the action", 
+                "repeat the action", "do the action again", "redo the step", "repeat the step", "do the step again"
+            ]
+        },
+        {
+            "tag": "swipe_up",
+            "patterns": [
+                "swipe up", "scroll up", "move up", "navigate up", "swipe the screen up", "scroll the screen up", "move the screen up", 
+                "navigate the screen up", "swipe the page up", "scroll the page up", "move the page up", "navigate the page up", 
+                "swipe up the screen", "scroll up the screen", "move up the screen", "navigate up the screen", "swipe up the page", 
+                "scroll up the page", "move up the page", "navigate up the page"
+            ]
+        },
+        {
+            "tag": "swipe_down",
+            "patterns": [
+                "swipe down", "scroll down", "move down", "navigate down", "swipe the screen down", "scroll the screen down", "move the screen down", 
+                "navigate the screen down", "swipe the page down", "scroll the page down", "move the page down", "navigate the page down", 
+                "swipe down the screen", "scroll down the screen", "move down the screen", "navigate down the screen", "swipe down the page", 
+                "scroll down the page", "move down the page", "navigate down the page"
+            ]
+        },
+        {
+            "tag": "turn_off_screen",
+            "patterns": [
+                "turn off screen", "shut off screen", "switch off screen", "power off screen", "turn the screen off", 
+                "shut the screen off", "switch the screen off", "power the screen off", "turn the display off", "shut the display off", 
+                "switch the display off", "power the display off", "turn monitor off", "shut monitor off", "switch monitor off", 
+                "power monitor off", "turn off the display", "shut off the display", "switch off the display", "power off the display"
+            ]
+        },
+        {
+            "tag": "shutdown_system",
+            "patterns": [
+                "shut down system", "turn off system", "power off system", "shutdown system", "shut down computer", "turn off computer", 
+                "power off computer", "shutdown computer", "shut down the system", "turn off the system", "power off the system", 
+                "shutdown the system", "shut down the computer", "turn off the computer", "power off the computer", "shutdown the computer", 
+                "turn off pc", "shutdown pc", "turn off the pc", "shutdown the pc", "shut down pc", "shut down the pc"
+            ]
+        },
+        {
+            "tag": "restart_system",
+            "patterns": [
+                "restart system", "reboot system", "restart computer", "reboot computer", "restart the system", "reboot the system", 
+                "restart the computer", "reboot the computer", "restart the pc", "reboot the pc", "restart pc", "reboot pc", 
+                "restart the pc now", "reboot the pc now", "restart the computer now", "reboot the computer now", "restart the system now", 
+                "reboot the system now", "restart now", "reboot now"
+            ]
+        },
+        {
+            "tag": "open_website",
+            "patterns": [
+                "open google", "open gmail", "open myclass", "open lpulive", "open ums", "open github", "open youtube", 
+                "open sanfoundry", "open hackerrank", "open hackerearth", "open codeforces", "open codechef", "open codecademy", 
+                "open leetcode", "open udemy", "open edx", "open coursera", "open w3resource", "open w3schools", "open geeksforgeeks", 
+                "open stackoverflow", "open instagram", "open facebook", "open linkedin", "open twitter", "open imdb", "open netflix", 
+                "open amazon prime", "open whatsapp", "open hotstar", "open cricbuzz", "open google maps", "open flipkart", 
+                "open amazon", "open nykaa", "open myntra", "open amazon flex", "open swiggy", "open zomato", "open spotify"
+            ]
+        },
+        {
+            "tag": "search_google",
+            "patterns": [
+                "search google", "google search", "google", "search on google", "look up on google", "search the web", "search online", 
+                "look up online", "find on google", "search google for", "google it", "google this", "search google now", 
+                "search for this on google", "search web", "search the internet", "find online", "google search for", "search on google for", "search google now"
+            ]
+        },
+        {
+            "tag": "search_youtube",
+            "patterns": [
+                "search youtube", "youtube search", "youtube", "search on youtube", "look up on youtube", "find on youtube", 
+                "youtube it", "search youtube for", "youtube this", "search for this on youtube", "search video on youtube", 
+                "find video on youtube", "search for video on youtube", "look up video on youtube", "search youtube now", "search youtube", 
+                "look for this on youtube", "search for on youtube", "youtube search for", "find on youtube"
+            ]
+        },
+        {
+            "tag": "send_whatsapp_message",
+            "patterns": [
+                "send whatsapp message", "send a message on whatsapp", "whatsapp message", "message on whatsapp", "send message on whatsapp", 
+                "whatsapp text", "text on whatsapp", "send text on whatsapp", "send whatsapp text", "whatsapp a message", "send message", 
+                "send a message", "whatsapp", "whatsapp someone", "send a message via whatsapp", "whatsapp message to", "send whatsapp message to", 
+                "send a whatsapp message to", "message someone on whatsapp", "send message via whatsapp"
+            ]
+        },
+        {
+            "tag": "make_call",
+            "patterns": [
+                "make a call", "call someone", "make a phone call", "call", "phone call", "call via phone", "call now", "call on phone", 
+                "make a call now", "call someone now", "phone someone", "call this person", "call this number", "phone this number", 
+                "phone this person", "make a call on phone", "make a phone call now", "phone call now", "call on phone now", 
+                "call this contact", "phone this contact", "make call now", "call via phone now"
+            ]
+        },
+        {
+            "tag": "make_video_call",
+            "patterns": [
+                "make a video call", "start video call", "video call", "initiate video call", "call with video", "make a call with video",
+                "start a video call", "initiate a video call", "call someone with video", "video call someone", "call via video", 
+                "make video call now", "video call now", "call now with video", "start video call now", "initiate video call now", 
+                "start a video call now", "initiate a video call now"
+            ]
+        },
+        {
+            "tag": "take_photo",
+            "patterns": [
+                "take a photo", "capture a photo", "take a picture", "snap a photo", "snap a picture", "capture a picture", 
+                "take photo", "capture photo", "take picture", "snap photo", "snap picture", "capture picture", 
+                "take a photo now", "capture a photo now", "take a picture now", "snap a photo now", "snap a picture now", "capture a picture now"
+            ]
+        },
+        {
+            "tag": "take_screenshot",
+            "patterns": [
+                "take a screenshot", "capture a screenshot", "take screen shot", "snap a screenshot", "take a screen capture", "take a screen grab", 
+                "capture screen shot", "snap screen shot", "take screenshot", "capture screenshot", "snap screenshot", "screen capture", "screen grab", 
+                "take a screenshot now", "capture a screenshot now", "take screen shot now", "snap a screenshot now", "take a screen capture now", 
+                "take a screen grab now"
+            ]
+        },
+        {
+            "tag": "start_screen_recording",
+            "patterns": [
+                "start screen recording", "begin screen recording", "record screen", "initiate screen recording", "screen record", 
+                "start recording screen", "begin recording screen", "recording screen start", "start a screen recording", "begin a screen recording", 
+                "start screen capture", "begin screen capture", "screen recording", "screen capture", 
+                "start screen recording now", "begin screen recording now", "record screen now", "initiate screen recording now"
+            ]
+        },
+        {
+            "tag": "stop_screen_recording",
+            "patterns": [
+                "stop screen recording", "end screen recording", "terminate screen recording", "stop recording screen", "end recording screen", 
+                "terminate recording screen", "stop screen record", "stop the screen recording", "end the screen recording", "terminate the screen recording", 
+                "stop screen capture", "end screen capture", "terminate screen capture", "stop the screen record", 
+                "stop screen recording now", "end screen recording now", "terminate screen recording now", "stop recording screen now"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks", "thank you", "thanks a lot", "thanks very much", "thanks for that", "thank you very much", "thank you a lot", 
+                "thank you so much", "thanks so much", "thank you kindly", "I appreciate it", "much obliged", "thanks a bunch", 
+                "thanks a million", "thanks indeed", "thank you indeed", "thanks for your help", "thank you for your help"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "bye", "goodbye", "see you", "see you later", "see you soon", "take care", "farewell", "so long", "later", "catch you later", 
+                "talk to you later", "bye bye", "bye for now", "until next time", "good night", "good day", "see ya", "ciao", "adios", 
+                "bye now", "goodbye for now", "goodbye now"
+            ]
+        }        
+    ]
+}
